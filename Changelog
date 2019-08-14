@@ -590,7 +590,7 @@ Dominick Grift (889):
       fix puppet_admin() need to require types that it uses
       Replace wrong type in puppet_admin()
       Fix a syntax error in ricci_domtrans()
-      Catch all rpcbind content in /var/run
+      Catch all rpcbind content in /run
       Changes to the cups policy module
       Tab clean up in the rpc file context file
       Changes to the rpc policy module
@@ -877,7 +877,7 @@ Dominick Grift (889):
       Changes to the ppp policy module
       Initial jockey policy module
       Module version bumps for "several named transition for directories    
-         created in /var/run by initscripts" in various modules by Laurent    
+         created in /run by initscripts" in various modules by Laurent    
          Bigonville
       Module version bumps for fixes in various modules by Laurent Bigonville
       Module version bump for changes to the consolekit policy module by    
@@ -937,7 +937,7 @@ Dominick Grift (889):
          spec
       Module version bumps for changes in various modules by Sven Vermeulen
       Move asterisk_exec() and modify XML header
-      Consolekit creates /var/run/console directories with a type transition    
+      Consolekit creates /run/console directories with a type transition    
          unconditionally
       Module version bump in consolekit policy module for changes by Sven    
          Vermeulen
@@ -959,7 +959,7 @@ Laurent Bigonville (28):
       Add Debian location for libvirtd init script
       Add Debian location for evolution executables
       Add Debian locationis for nut executables and configuration files
-      Add several named transition for directories created in /var/run by
+      Add several named transition for directories created in /run by
          initscripts
       Run packagekit under apt_t context on Debian distribution
       Add proper label for colord daemon in debian
@@ -967,7 +967,7 @@ Laurent Bigonville (28):
       Allow virtd_t context to read sysctl_crypto_t
       Allow colord_t context to read sysctl_crypto_t
       Add proper label for gconfd-2 daemon in Debian
-      Ensure that consolekit can create /var/run/console directory on Debian
+      Ensure that consolekit can create /run/console directory on Debian
       Properly label nm-dispatcher.action on Debian
       policykit.fc: Properly label polkit-agent-helper-1 on Debian
       cups.fc: Properly label cups-pk-helper-mechanism on Debian
